@@ -16,7 +16,7 @@ app.use(cors());
 app.use("/posts", postRoutes);
 
 app.get("/", (req, res) => {
-  res.send("Hello to Memories API ");
+  res.send("Davit Hunanyan's API of Fullstack Project - Memories");
 });
 
 // https://www.mongodb.com/cloud/atlas
