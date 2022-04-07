@@ -19,7 +19,7 @@ app.get("/", (req, res) => {
   res.send("Davit Hunanyan's API of MERN Fullstack Project - Memories");
 });
 
-// https://www.mongodb.com/cloud/atlas
+//https://www.mongodb.com/cloud/atlas
 const PORT = process.env.PORT || 5000;
 
 mongoose
