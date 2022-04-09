@@ -12,12 +12,13 @@ app.use(bodyParser.json({ limit: "30mb", extended: true }));
 app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }));
 app.use(cors());
 
-//adding http://localhost:5000/posts
-app.use("/posts", postRoutes);
-
+//adding http://localhost:5000/
 app.get("/", (req, res) => {
   res.send("Davit Hunanyan's API of MERN Fullstack Project - Memories");
 });
+
+//adding http://localhost:5000/posts
+app.use("/posts", postRoutes);
 
 //https://www.mongodb.com/cloud/atlas
 const PORT = process.env.PORT || 5000;
