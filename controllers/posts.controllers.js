@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import PostMessage from "../modeles/postMessage.js";
+import PostMessage from "../models/postMessage.js";
 
 //GET POST
 //http://localhost:5000/posts
